@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace lab_pracadyp
 {
-    internal class opinia_promotor : opinia
+    public class opinia_promotor : opinia
     {
-        string nazwisko_promotora;
+        public string nazwisko_promotora;
     }
 }

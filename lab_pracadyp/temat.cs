@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace lab_pracadyp
 {
-    internal class temat
+    public class temat
     {
-        string tytul;
-        string ang_tytul;
-        string imie;
-        string dane_wejsciowe;
-        string zakres;
-        string termin;
-        string promotor;
-        string jednostka_promotora;
+        public string tytul;
+        public string ang_tytul;
+        public string imie;
+        public string dane_wejsciowe;
+        public string zakres;
+        public string termin;
+        public string promotor;
+        public string jednostka_promotora;
     }
 }

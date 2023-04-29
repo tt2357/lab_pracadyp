@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace lab_pracadyp
 {
-    internal class komisja : temat
+    public class komisja : temat
     {
-        int ocena_pracy;
-        int ocena_egzamin;
-        int ocena_studiow;
-        bool czy_przyznano;
+        public int ocena_pracy;
+        public int ocena_egzamin;
+        public int ocena_studiow;
+        public bool czy_przyznano;
 
     }
 }

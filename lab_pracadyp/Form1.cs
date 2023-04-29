@@ -12,6 +12,7 @@ namespace lab_pracadyp
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +34,7 @@ namespace lab_pracadyp
             {
                 opiniaform opiniaform = new opiniaform();
                 opiniaform.Show();
+                opiniaform.form2instance.rec_czy_pro = 1;
             }
             else if (comboBox1.SelectedIndex == 1) 
             {
@@ -43,6 +45,7 @@ namespace lab_pracadyp
             {
                 opiniaform opiniaform = new opiniaform();
                 opiniaform.Show();
+                opiniaform.form2instance.rec_czy_pro = 2;
             }
         }
 

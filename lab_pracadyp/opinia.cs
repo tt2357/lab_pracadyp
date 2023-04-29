@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace lab_pracadyp
 {
-    class opinia: temat
+    public class opinia: temat
     {
-        int realizacja;
-        int istotnosc;
-        int praktycznosc;
-        int poprawnosc;
-        int bibliografia;
-        int zredagowanie;
-        int wiedza;
-        int zaangazowanie;
+        public string realizacja;
+        public string istotnosc;
+        public string praktycznosc;
+        public string poprawnosc;
+        public string bibliografia;
+        public string zredagowanie;
+        public string wiedza;
+        public string zaangazowanie;
 
     }
 }
